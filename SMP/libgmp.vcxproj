@@ -9,7 +9,7 @@
     <Import Project="libgmp_files.props" />
   </ImportGroup>
   <ImportGroup Label="ExtensionSettings">
-    <Import Project="$(VCTargetsPath)\BuildCustomizations\yasm.props" />
+    <Import Project="C:\Program Files\YASM\vsyasm.props" />
   </ImportGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -576,6 +576,6 @@ del /f /q $(OutDir)\licenses\gmp.txt
     </YASM>
   </ItemDefinitionGroup>
   <ImportGroup Label="ExtensionTargets">
-    <Import Project="$(VCTargetsPath)\BuildCustomizations\yasm.targets" />
+    <Import Project="C:\Program Files\YASM\vsyasm.targets" />
   </ImportGroup>
 </Project>
