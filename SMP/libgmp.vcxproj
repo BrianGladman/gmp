@@ -92,8 +92,8 @@ del /f /q $(OutDir)\licenses\gmp.txt
       <Command>mkdir "$(OutDir)"\include
 copy .\gmp.h "$(OutDir)"\include\
 copy ..\gmpxx.h "$(OutDir)"\include\
-mkdir $(OutDir)\licenses
-copy ..\COPYING.LESSERv3 $(OutDir)\licenses\gmp.txt</Command>
+mkdir "$(OutDir)"\licenses
+copy ..\COPYING.LESSERv3 "$(OutDir)"\licenses\gmp.txt</Command>
     </PostBuildEvent>
     <PreBuildEvent>
       <Command>if exist ..\config.h (
@@ -235,8 +235,8 @@ del /f /q $(OutDir)\licenses\gmp.txt
       <Command>mkdir "$(OutDir)"\include
 copy .\gmp.h "$(OutDir)"\include\
 copy ..\gmpxx.h "$(OutDir)"\include\
-mkdir $(OutDir)\licenses
-copy ..\COPYING.LESSERv3 $(OutDir)\licenses\gmp.txt</Command>
+mkdir "$(OutDir)"\licenses
+copy ..\COPYING.LESSERv3 "$(OutDir)"\licenses\gmp.txt</Command>
     </PostBuildEvent>
     <PreBuildEvent>
       <Command>if exist ..\config.h (
@@ -374,8 +374,8 @@ del /f /q $(OutDir)\licenses\gmp.txt
       <Command>mkdir "$(OutDir)"\include
 copy .\gmp.h "$(OutDir)"\include\
 copy ..\gmpxx.h "$(OutDir)"\include\
-mkdir $(OutDir)\licenses
-copy ..\COPYING.LESSERv3 $(OutDir)\licenses\gmp.txt</Command>
+mkdir "$(OutDir)"\licenses
+copy ..\COPYING.LESSERv3 "$(OutDir)"\licenses\gmp.txt</Command>
     </PostBuildEvent>
     <PreBuildEvent>
       <Command>if exist ..\config.h (
@@ -517,8 +517,8 @@ del /f /q $(OutDir)\licenses\gmp.txt
       <Command>mkdir "$(OutDir)"\include
 copy .\gmp.h "$(OutDir)"\include\
 copy ..\gmpxx.h "$(OutDir)"\include\
-mkdir $(OutDir)\licenses
-copy ..\COPYING.LESSERv3 $(OutDir)\licenses\gmp.txt</Command>
+mkdir "$(OutDir)"\licenses
+copy ..\COPYING.LESSERv3 "$(OutDir)"\licenses\gmp.txt</Command>
     </PostBuildEvent>
     <PreBuildEvent>
       <Command>if exist ..\config.h (
